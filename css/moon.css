@@ -110,7 +110,7 @@ a:hover, a:active, a:focus{
 .footer a:active,
 .footer a:focus{
 	//background-color: red;
-    color: yellow;
+    color: #BADA55;
     font-weight: bold;
 }
 
