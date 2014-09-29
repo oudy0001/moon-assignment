@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+/***********************************
+		REFERENCES
+font-sizes
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1rem
+0.618rem
+
+font-families
+Droid Serif, Droid Sans
+
+colors
+#000000
+#222222
+#333333
+#D4D4D4
+#CC3300
+#BADA55
+#FFFFFF
+plus the shadow for the text
+
+
+***********************************/
+
+*{
+	padding:0;
+	margin:0;
+}
+
+/***********************************
+		DEFAULTS
+***********************************/
+body{
+	background-color: #222;
+}
+h1, h2, h3, h4{
+	font-family: 'Droid Serif', serif;  /* you need a font stack here */
+}
+h1{
+	
+}
+h2{
+	
+}
+h3{
+	
+}
+h4{
+	
+}
+p, li, a{
+	font-family: 'Droid Serif', serif; /* you need a font stack here */
+}
+img{
+	width:90%;
+	max-width: 50%;
+	box-sizing: border-box;
+}
+ul{
+	list-style-type: none;
+}
+a:link, a:visited{
+	transition: all 0.8s linear;
+    color: #CC3300;
+    font-family: 'Droid Sans', sans-serif;
+}
+a:hover, a:active, a:focus{
+	text-decoration: none;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+/***********************************
+		LAYOUT
+***********************************/
+.wrapper{
+	width:80%;
+	max-width: 900px;
+	min-width: 400px;
+	margin: 0 auto 2.0rem;
+	background-color: #d4d4d4;
+    padding: 0px;
+}
+.header{
+	background-color: #000;
+    min-height: 400px;
+    overflow: hidden;
+}
+.main{
+	padding: 10px 50px;
+}
+.footer{
+	background-color: #333333;
+}
+
+/***********************************
+		LINKS 
+-for any that are different than the default
+***********************************/
+
+.footer a:link,
+.footer a:visited{
+	display: block;
+	
+}
+.footer a:hover,
+.footer a:active,
+.footer a:focus{
+	//background-color: red;
+    color: yellow;
+    font-weight: bold;
+}
+
+
+/***********************************
+		CONTENT
+***********************************/
+.header h1{
+    color: white;
+    font-size: 6.854rem;
+    float: left;
+    width: 300px;
+    //height: 1000px;
+    padding-left: 15%;
+    text-shadow: 4px 4px 2px #333;
+    //background-image: url(img/moon-square.jpg);
+    
+    
+}
+.header{
+
+    background: url(../img/moon.jpg);
+    background-position: center right;
+    //content: url(http://edobobik.kilu.de/diamondspacefiller.JPG);
+}
+.main h2{
+	color: #CC3300;
+    font-size: 4.236rem;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 2px #aaa;
+}
+.main h3{
+	color: #CC3300;
+    text-shadow: 3px 3px 2px #aaa;
+    font-size: 2.618rem;
+    line-height: 150%
+}
+.main p{
+    font-family: 'Droid Sans', sans-serif;
+	font-size:  1rem;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+.main img{
+    //border-radius: 50%;
+    //content: url(img/moon-cropped.jpg);
+    width: 25%;
+    float: left;
+    padding: 0;
+    border-radius: 25%;
+	/* use border-radius to crop image */
+	/* choose a width percentage for the image too */
+}
+.left{
+	float:left;
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+.footer p{
+    padding: 0px, 0px, 0px, 0px;
+    line-height: 400%;
+    //text-align: left;
+    font-family: 'Droid Sans', sans-serif;
+    clear: both;
+    text-indent: 40px;
+    text-shadow: 0px 0px 4px #777;
+}
+.footer li{
+    color: #CC3300;
+    box-sizing: border-box;
+    line-height: 200%;
+    width: 50%;
+    float: left;
+    height: 200% auto;
+    text-shadow: 0px 0px 2px #777;
+    font-size: 1rem;
+    text-indent: 80px;
+    /* make these 50% the width of the footer */
+}
