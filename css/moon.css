@@ -109,7 +109,6 @@ a:hover, a:active, a:focus{
 .footer a:hover,
 .footer a:active,
 .footer a:focus{
-	//background-color: red;
     color: #BADA55;
     font-weight: bold;
 }
@@ -123,15 +122,12 @@ a:hover, a:active, a:focus{
     font-size: 6.854rem;
     float: left;
     width: 300px;
-    //height: 1000px;
     padding-left: 15%;
     text-shadow: 4px 4px 2px #333;
-    //background-image: url(img/moon-square.jpg);
     
     
 }
 .header{
-
     background: url(../img/moon.jpg);
     background-position: center right;
     //content: url(http://edobobik.kilu.de/diamondspacefiller.JPG);
@@ -155,8 +151,6 @@ a:hover, a:active, a:focus{
     margin-bottom: 30px;
 }
 .main img{
-    //border-radius: 50%;
-    //content: url(img/moon-cropped.jpg);
     width: 25%;
     float: left;
     padding: 0;
@@ -172,7 +166,6 @@ a:hover, a:active, a:focus{
 .footer p{
     padding: 0px, 0px, 0px, 0px;
     line-height: 400%;
-    //text-align: left;
     font-family: 'Droid Sans', sans-serif;
     clear: both;
     text-indent: 5%;
@@ -187,6 +180,6 @@ a:hover, a:active, a:focus{
     height: 200% auto;
     text-shadow: 0px 0px 2px #777;
     font-size: 1rem;
-    text-indent: 20%;
+    text-indent: 15%;
     /* make these 50% the width of the footer */
 }
