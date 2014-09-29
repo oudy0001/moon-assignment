@@ -175,7 +175,7 @@ a:hover, a:active, a:focus{
     //text-align: left;
     font-family: 'Droid Sans', sans-serif;
     clear: both;
-    text-indent: 40px;
+    text-indent: 5%;
     text-shadow: 0px 0px 4px #777;
 }
 .footer li{
@@ -187,6 +187,6 @@ a:hover, a:active, a:focus{
     height: 200% auto;
     text-shadow: 0px 0px 2px #777;
     font-size: 1rem;
-    text-indent: 80px;
+    text-indent: 20%;
     /* make these 50% the width of the footer */
 }
